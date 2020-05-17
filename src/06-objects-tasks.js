@@ -1,3 +1,5 @@
+/* eslint-disable func-names */
+/* eslint-disable no-proto */
 /* ************************************************************************************************
  *                                                                                                *
  * Plese read the following tutorial before implementing tasks:                                   *
@@ -23,7 +25,6 @@
 function Rectangle(width, height) {
   this.width = width;
   this.height = height;
-  // eslint-disable-next-line no-proto
   this.__proto__.getArea = function () {
     return width * height;
   };

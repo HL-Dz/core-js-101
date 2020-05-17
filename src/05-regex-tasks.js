@@ -54,7 +54,8 @@ function getRegexForGuid() {
  *
  */
 function getRegexForPitSpot() {
-  throw new Error('Not implemented');
+  const regExp = /^(pi|s|r)/;
+  return regExp;
 }
 
 
